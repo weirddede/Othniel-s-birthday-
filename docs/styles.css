@@ -1,0 +1,31 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to bottom right, #00bfff, #32cd32, #ff6347);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#balloons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
